@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.route-page * {
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #b3b8c7;
+  margin-top: 40px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.route {
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.route button {
+  width: 100px;
+}
+
+.route-page select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 42px;
+  width: 345px;
+  border: 1px solid #d7dbe7;
+  border-radius: 4px;
+}
+
+.main-section {
+  box-shadow: 1px 1px 4px 1px rgba(54, 62, 81, 0.04),
+    2px 2px 16px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  padding: 16px 12px;
+  margin-bottom: 16px;
+}
+
+.toast-container {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.toast {
+  background-color: #242833;
+  padding: 16px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 4px 4px 16px 0px rgba(23, 29, 43, 0.24),
+    1px 1px 4px 0px rgba(43, 49, 64, 0.24);
+  margin-bottom: 20px;
+}
+
+.toast__title {
+  margin-right: 20px;
+}
+.toast__close-button {
+  background: none;
+  color: white;
+}

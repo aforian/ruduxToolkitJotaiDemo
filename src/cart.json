@@ -1,0 +1,14 @@
+{
+  "cartItems": [
+    { "id": 1, "title": "cart-items title 1", "price": 5, "amount": 1 },
+    { "id": 2, "title": "cart-items title 2", "price": 10, "amount": 2 }
+  ],
+  "deliveries": [
+    { "id": 1, "title": "deliveries title 1" },
+    { "id": 2, "title": "deliveries title 2" }
+  ],
+  "payments": [
+    { "id": 1, "title": "payments title 1" },
+    { "id": 2, "title": "payments title 2" }
+  ]
+}
